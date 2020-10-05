@@ -5,9 +5,9 @@
         <b-navbar-nav>
           <b-nav-item href="#">Início</b-nav-item>
 
-          <b-nav-item href="#">Minhas publicações</b-nav-item>
+          <b-nav-item href="#">Publicações</b-nav-item>
 
-          <b-nav-item href="#">Linha do tempo</b-nav-item>
+          <b-nav-item href="#">Publicar</b-nav-item>
         </b-navbar-nav>
       </b-navbar>
     </div>
