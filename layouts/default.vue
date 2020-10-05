@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <p class="cabeca">Creepypasta Fatec</p>
     <Nuxt />
     <Footer />
   </div>
