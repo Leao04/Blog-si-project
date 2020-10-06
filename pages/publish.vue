@@ -18,7 +18,7 @@
         placeholder="Digite aqui sua publicação*"
       ></textarea>
       <br />
-      <button class="btn" type="submit">Publicar</button>
+      <button class="btnP" type="submit">Publicar</button>
     </form>
     <p class="erro" id="resposta"></p>
   </div>
