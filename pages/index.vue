@@ -28,7 +28,7 @@
             Creepypasta publicada por Victor Leão Dal Rovere
           </b-card-text>
 
-          <b-button href="#" variant="primary">Ler</b-button>
+          <NuxtLink to="#historia">Ler</NuxtLink>
         </b-card>
       </div>
 
