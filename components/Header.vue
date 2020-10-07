@@ -3,11 +3,13 @@
     <div>
       <b-navbar type="danger" variant="dark">
         <b-navbar-nav>
-          <b-nav-item href="#">Início</b-nav-item>
-
-          <b-nav-item href="#">Publicações</b-nav-item>
-
-          <b-nav-item href="#">Publicar</b-nav-item>
+          <NuxtLink to="/">Início</NuxtLink>
+          <div class="divmenu">
+            <NuxtLink to="/publications">Publicações</NuxtLink>
+          </div>
+          <div class="divmenudois">
+            <NuxtLink to="/publish">Publicar</NuxtLink>
+          </div>
         </b-navbar-nav>
       </b-navbar>
     </div>
