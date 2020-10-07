@@ -74,6 +74,7 @@ body {
 .card2 {
     grid-column-start: 3;
     grid-column-end: 3;
+    padding: 30px;
 }
 
 .card3 {
@@ -105,5 +106,10 @@ body {
  }
 
  .label{
+    color: black;
+}
+
+.p{
+    text-align: center;
     color: black;
 }

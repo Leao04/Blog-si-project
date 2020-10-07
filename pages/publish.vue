@@ -25,6 +25,13 @@
 </template>
 
 
+
+<script>
+export default {
+  name: "publish",
+};
+</script>
+
  <script 
  @import "../assets/js/publish.js";
  </script>
