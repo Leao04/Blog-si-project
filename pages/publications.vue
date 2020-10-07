@@ -3,7 +3,12 @@
     <div class="p">
       <h1>As melhores creepypasta do Brasil</h1>
     </div>
-    <img src="../assets/img/pentagrama.jpg" alt="imagem" />
+    <img
+      src="../assets/img/pentagrama.jpg"
+      alt="imagem"
+      height="400px"
+      width="100%"
+    />
     <hr />
     <br />
     <div id="historia">

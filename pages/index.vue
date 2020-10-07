@@ -28,7 +28,7 @@
             Creepypasta publicada por Victor Leão Dal Rovere
           </b-card-text>
 
-          <NuxtLink to="#historia">Ler</NuxtLink>
+          <NuxtLink to="/publications">Ler</NuxtLink>
         </b-card>
       </div>
 
@@ -44,7 +44,7 @@
         >
           <b-card-text> Creepypasta publicada por Gabriel Azevedo </b-card-text>
 
-          <b-button href="#" variant="primary">Ler</b-button>
+          <NuxtLink to="/publications">Ler</NuxtLink>
         </b-card>
       </div>
 
@@ -60,7 +60,7 @@
         >
           <b-card-text> Creepypasta publicada por Gabriel Azevedo </b-card-text>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
+          <NuxtLink to="/publications">Ler</NuxtLink>
         </b-card>
       </div>
     </div>
