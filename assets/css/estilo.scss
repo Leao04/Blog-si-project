@@ -1,5 +1,5 @@
 body {
-    color: red;
+    color:black;
     background-color: rgb(184, 174, 174);
 }
 
@@ -16,6 +16,8 @@ body {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
     background-color: rgb(17, 17, 17);
+    color: red;
+
 }
 
 .texto {
