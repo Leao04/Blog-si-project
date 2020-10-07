@@ -1,46 +1,40 @@
-const nome = document.getElementById('nome')
-const comentario = document.getElementById('comentario')
-const resposta = document.getElementById('resposta')
+const nome = document.getElementById("nome");
+const comentario = document.getElementById("comentario");
+const resposta = document.getElementById("resposta");
 
+formulario.onsubmit = (event) => {
+  event.preventDefault();
 
+  if (validarNomes() | validarComentarios()) return;
 
-formulario.onsubmit = event => {
-    event.preventDefault()
+  const nome = {
+    nome: nome.value.trim(),
+    comentario: comentario.value.trim(),
+  };
 
-    if (
-        validarnome() &&
-        validarcomentario()
-    ) {
-        alert("Publicado com sucesso ")
-        resposta.textContent = ""
+  function validarNomes() {
+    nome.value = nome.value.trim();
+
+    if (!nome.value) {
+      resposta.textContent = "Campo é obrigatório!";
+      resposta.className = "error";
+      nomes.focus();
+      return false;
     }
+    nomes.classList.remove("error");
+    return true;
+  }
 
-    function validarnome() {
+  function validarComentarios() {
+    comentario.value = comentario.value.trim();
 
-        nome.value = nome.value.trim()
-
-        if (!nome.value) {
-            resposta.textContent = 'O campo Nome da publicação deve ser preenchido!'
-            nome.focus()
-            return false
-        }
-
-        function validarcomentario() {
-            comentario.value = comentario.value.trim()
-
-            if (!comentario.value) {
-
-                resposta.textContent = 'Publicação é obrigatorio!'
-                comentario.focus()
-
-            }
-
-            if (comentario.value.length < 100) {
-                resposta.textContent = 'o campo deve ter no minino 100 caracteres!'
-                comentario.focus
-                return false
-            }
-            return true
-        }
+    if (!comentario.value) {
+      resposta.textContent = "Campo é obrigatório!";
+      resposta.className = "erro";
+      nomes.focus();
+      return false;
     }
-}
+    nomes.classList.remove("erro");
+    return true;
+  }
+};
