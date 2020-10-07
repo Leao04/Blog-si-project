@@ -2,22 +2,22 @@
   {
     "name": "publications",
     "path": "/publications",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Blog-si-project\\\\pages\\\\publications.vue",
+    "component": "C:\\\\Users\\\\maria\\\\Desktop\\\\Projeto integrador 2\\\\Blog-si-project\\\\pages\\\\publications.vue",
     "chunkName": "pages/publications",
-    "_name": "_54fb70a2"
+    "_name": "_614633cd"
   },
   {
     "name": "publish",
     "path": "/publish",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Blog-si-project\\\\pages\\\\publish.vue",
+    "component": "C:\\\\Users\\\\maria\\\\Desktop\\\\Projeto integrador 2\\\\Blog-si-project\\\\pages\\\\publish.vue",
     "chunkName": "pages/publish",
-    "_name": "_f1b1e6f8"
+    "_name": "_3ed3ba79"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\lordv\\\\OneDrive\\\\Documentos\\\\GitHub\\\\Blog-si-project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\maria\\\\Desktop\\\\Projeto integrador 2\\\\Blog-si-project\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_667d7207"
+    "_name": "_15f7193c"
   }
 ]

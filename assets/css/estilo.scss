@@ -1,6 +1,6 @@
 body {
-    color: brown;
-    background-color: darkgrey;
+    color: red;
+    background-color: rgb(184, 174, 174);
 }
 
 .cabeca {
@@ -15,7 +15,7 @@ body {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    background-color: gray;
+    background-color: rgb(17, 17, 17);
 }
 
 .texto {
@@ -84,7 +84,7 @@ body {
 
 .publicação{
     text-align: center;
-    background-color: silver;
+    background-color: rgb(218, 214, 214);
     margin: 5px;
 }
 
